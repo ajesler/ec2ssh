@@ -3,8 +3,10 @@ require 'fog'
 module EC2SSH
 	class EC2Instances
 
+		@connection = nil
+
 		def initialize(key, secret, region)
-			@connection = @connection || Fog::Compute.new(
+			@connection ||= Fog::Compute.new(
 			  :provider           => 'AWS',
 			  :aws_access_key_id  => key,
 			  :aws_secret_access_key => secret,
