@@ -1,6 +1,6 @@
 ## ec2ssh
 
-A helper gem for ssh'ing into EC2 instances. There are many gems like this that are far more powerful and easier to configure. You probably want one of them rather than this gem which was made as a short-lived experiment.  
+A helper gem for ssh'ing into EC2 instances. There are many gems like this that are far more powerful and easier to configure. You probably want one of them rather than this program which was made as a short-lived experiment.  
 ec2ssh can list all your AWS instances, as well as generating SSH config or alias entires to make connection easier.
 Filtering hosts by regex and writing program output to a specified file are supported.
 
